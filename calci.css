@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Caveat:wght@600&family=Chakra+Petch:wght@500&family=Great+Vibes&family=Itim&family=Julee&family=Open+Sans:ital,wght@1,300&family=Recursive&family=Roboto:wght@300;400&family=Satisfy&family=Shadows+Into+Light&family=Shantell+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+     /* background-image: url(/dark-gradien.avif);
+    background-size: cover; 
+    background-position: center; */
+
+    background-color: #2e2f30;
+}
+h1{ background: -webkit-linear-gradient(#d19fbd,#4a1553);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+   
+   padding: 30px;
+   font-family: 'Julee', cursive;
+   text-align: center;
+  
+}
+.container{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    color: white;
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 1px 1px ;
+}
+.row{
+    margin: 8px 0;
+    
+}
+#button{
+    width: 250px;
+    /* height: 50px; */
+    margin: 0;
+    padding: 10px px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(#a9afa9,#1c1c1d);
+    color: whitesmoke;
+}
+#c{
+    width: 140px;
+}
+ 
